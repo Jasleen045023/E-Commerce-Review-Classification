@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # Load and display image
-image_path = os.path.join("C:\\Users\\Jasleen Kaur\\Downloads", "your_image.jpg")  # Replace 'your_image.jpg' with the actual filename
+image_path = os.path.join("C:\\Users\\Jasleen Kaur\\Downloads", "emotion.jpg")  # Replace 'your_image.jpg' with the actual filename
 if os.path.exists(image_path):
     image = Image.open(image_path)
     st.image(image, use_column_width=True)
